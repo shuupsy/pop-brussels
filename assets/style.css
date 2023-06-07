@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 80%;
+  margin: auto;
+}
+
+div {
+  margin: 4vh 0;
+}
+
+.age-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2vh;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#communes-filter div {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+#communes-filter input {
+  margin: 0 10px;
+}
+
+#age-graph-img {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
